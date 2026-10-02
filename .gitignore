@@ -1,0 +1,8 @@
+# raw downloads stay local; hand-typed Cornell data is committed
+data/*
+!data/cornell_returns.csv
+!data/cornell_annualized.csv
+CLAUDE.md
+endowment-manager-evaluation.md
+__pycache__/
+~$*.xlsx
