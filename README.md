@@ -11,6 +11,18 @@
 | TRBCX T. Rowe Blue Chip Growth | 14.4% | 0.70% | −0.3% | −3.1% to +2.5% | can't tell |
 | VFIAX Vanguard 500 Index | 13.9% | 0.04% | – | – | benchmark |
 
+### Part 2: Cornell's endowment vs. a simple 60/40 portfolio (FY2015–FY2025)
+
+| | Cornell | 60/40 index portfolio | Difference |
+|---|---|---|---|
+| Average yearly return | 8.7% | 8.5% | +0.2 pts |
+| Excluding FY2021 (+41.9%) | | | −1.5 pts |
+| Gap needed to tell skill from luck (2 × SD ÷ √11) | | | ~4.8 pts/yr |
+
+Over 10 years to June 2025, Cornell's own report shows 8.6%/yr vs. 8.5% for its target portfolio and 8.0% for the peer median. Caveats: Cornell's private investments are valued infrequently (smoothing returns), and 11 years is a short record dominated by one year.
+
+![Cornell vs. 60/40 by fiscal year](output/cornell_vs_6040.png)
+
 **Read more:** [1-page memo](memo.md) ([PDF](memo.pdf)) · [Excel summary](output/summary.xlsx) · [code](analysis.py)
 
 **Run it:** `pip install pandas matplotlib statsmodels yfinance openpyxl requests`, then `python analysis.py` (downloads the data and rebuilds everything in `output/`).
